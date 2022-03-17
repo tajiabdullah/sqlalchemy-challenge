@@ -13,7 +13,7 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Selected only the `date` and `prcp` values
 * Loaded the query results into a Pandas DataFrame and set the index to the date column
 * Sorted the DataFrame values by `date`
-* Plotted the results using the DataFrame `plot` method *(Please see the graph below)*
+* Plotted the results using the DataFrame `plot` method ***(Please see the graph below)***
 * Used Pandas to print the summary statistics for the precipitation data
 
 ![image](https://user-images.githubusercontent.com/95979913/158743177-33e0b793-54a0-4403-975c-de48b68a12a0.png)
@@ -28,7 +28,7 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Designed a query to retrieve the last 12 months of temperature observation data (TOBS)
 * Filtered by the station with the highest number of observations
 * Queried the last 12 months of temperature observation data for this station
-* Plotted the results as a histogram with `bins=12` *(Please see the graph below)*
+* Plotted the results as a histogram with `bins=12` ***(Please see the graph below)***
 
 ![image](https://user-images.githubusercontent.com/95979913/158742943-deeabad0-c843-4426-a9cf-0e056c29fbb4.png)
 
@@ -57,7 +57,7 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Plotted the min, avg, and max temperature from your previous query as a bar chart
 * Used "Trip Avg Temp" as the title
 * Used the average temperature as the bar height (y value)
-* Used the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR) *(Please see the graph below)*
+* Used the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR) ***(Please see the graph below)***
 
 ![image](https://user-images.githubusercontent.com/95979913/158743012-6c57b8c2-72b2-44bb-a96a-37d3ea0c4ab0.png)
 
@@ -74,6 +74,6 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Stripped off the year and save a list of strings in the format `%m-%d`.
 * Used the `daily_normals` function to calculate the normals for each date string and append the results to a list called `normals`.
 * Loaded the list of daily normals into a Pandas DataFrame and set the index equal to the date.
-* Used Pandas to plot an area plot (`stacked=False`) for the daily normal *(Please see the graph below)*
+* Used Pandas to plot an area plot (`stacked=False`) for the daily normal ***(Please see the graph below)***
 
 ![image](https://user-images.githubusercontent.com/95979913/158743082-0cfcb1a6-b1d4-4e58-867e-1a4fbb775d64.png)
