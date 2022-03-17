@@ -1,12 +1,12 @@
-### sqlalchemy-challenge
+# sqlalchemy-challenge
 
 This assignment two steps and two bonus analyses that centered around the climate in Hawaii. The steps consisted of (1) Climate Analysis and Exploration, which included a Precipitation Analysis and Station Analysis, and (2) Climate App, which included Routes. On the other hand, the bonus analyses included Temperature Analysis I & II, with the latter including Daily Rainfall Average and Daily Temperature Normals. The information below is a list of tasks that I completed for each respective component.
 
 ## Step 1
 
-# Climate Analysis and Exploration
+### Climate Analysis and Exploration
 
-# *Precipitation Analysis*
+### *Precipitation Analysis*
 
 * Found the most recent date in the data set
 * Used date to retrieve the last 12 months of precipitation data by querying the 12 preceding months
@@ -16,7 +16,7 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Plotted the results using the DataFrame `plot` method
 * Used Pandas to print the summary statistics for the precipitation data
 
-# *Station Analysis*
+### *Station Analysis*
 
 * Designed a query to calculate the total number of stations in the dataset
 * Designed a query to find the most active stations
@@ -30,14 +30,14 @@ This assignment two steps and two bonus analyses that centered around the climat
 
 ## Step 2 
 
-# *Climate App*
+### *Climate App*
 
 * Designed a Flask API based on the queries that you have just developed
 * Used Flask to create routes *(Please see app.py for more information)*
 
 ## Bonus Analyses
 
-# *Temperature Analysis I*
+### *Temperature Analysis I*
 
 * Use Pandas to determine if there a difference between the temperature in June and December
 * Converted the date column format from string to datetime.
@@ -46,7 +46,7 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Identified the average temperature in June and December at all stations across all available years in the dataset. 
 * Used the t-test to determine whether the difference in the means, if any, is statistically significant. 
 
-# *Temperature Analysis II*
+### *Temperature Analysis II*
 
 * Used historical data in the dataset to observe previous temperatures
 * Used the `calc_temps` function to calculate the min, avg, and max temperatures for your trip using the matching dates from a previous year
@@ -55,12 +55,12 @@ This assignment two steps and two bonus analyses that centered around the climat
 * Used the average temperature as the bar height (y value)
 * Used the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR) *(Please see the graph below)*
 
-# *Daily Rainfall Average*
+#### *Daily Rainfall Average*
 
 * Calculated the rainfall per weather station using the previous year's matching dates
 * Sorted this in descending order by precipitation amount and list the station, name, latitude, longitude, and elevation.
 
-# *Daily Temperature Normals*
+#### *Daily Temperature Normals*
 
 * Calculated the daily normals for the duration of your trip, which are the averages for the min, avg, and max temperatures. 
 * Set the start and end date of the trip.
